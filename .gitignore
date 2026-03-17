@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Compiled TypeScript
+extensions/*.js
+extensions/*.d.ts
+extensions/*.d.ts.map
+extensions/*.js.map
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Pi side-agents
+.pi/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+
+# Documentation drafts
+*_DRAFT.md
+*_OLD.md
+*_BACKUP.md

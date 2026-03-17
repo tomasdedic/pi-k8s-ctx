@@ -1,0 +1,33 @@
+{
+  "name": "pi-k8s-ctx",
+  "version": "1.0.0",
+  "description": "Kubernetes context switcher for Pi - slash command for managing Kubernetes configurations",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "commands",
+    "kubernetes",
+    "kubectl",
+    "k8s",
+    "context"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "extensions/",
+    "scripts/",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.58.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
