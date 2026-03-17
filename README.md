@@ -5,6 +5,7 @@ Kubernetes context switcher for Pi - slash command implementation.
 ## Installation
 
 This package is already installed at:
+
 ```
 ~/.pi/agent/packages/pi-k8s-ctx/
 ```
@@ -22,44 +23,22 @@ This package is already installed at:
 ## Documentation
 
 See the installed package for full documentation:
+
 - **README**: `~/.pi/agent/packages/pi-k8s-ctx/README.md`
 - **Configuration**: `~/.pi/agent/packages/pi-k8s-ctx/CONFIGURATION.md`
 - **Context Awareness**: `~/.pi/agent/packages/pi-k8s-ctx/CONTEXT_AWARENESS.md`
 
-## Features
-
-✅ Interactive context picker with current marker  
-✅ Direct context switching  
-✅ Configurable paths (env vars or config file)  
-✅ LLM awareness - context switches visible to AI  
-✅ Shell compatible with your `ctx` function  
-
-## Development
-
-### Structure
-
-```
-.
-├── extensions/          # TypeScript extension source
-│   ├── index.ts
-│   └── k8s-ctx.ts
-├── scripts/            # CLI scripts
-│   └── k8s-ctx.mjs
-├── package.json
-├── tsconfig.json
-└── *.md               # Documentation
-```
-
-### Build
+## Build
 
 ```bash
 npm install
 npx tsc
 ```
 
-### Deploy
+## Deploy
 
 Copy to installed package:
+
 ```bash
 cp scripts/*.mjs ~/.pi/agent/packages/pi-k8s-ctx/scripts/
 cp extensions/*.js ~/.pi/agent/packages/pi-k8s-ctx/extensions/
